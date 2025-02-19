@@ -30,10 +30,10 @@ CREATE TABLE IF NOT EXISTS My_words (
 
 conn.commit()
 
-TOKEN = "8029409133:AAFWeaFDjXMPoysJ86vMC7Szxy2LxqlRQPo"
+TOKEN = "telegram_api_key"
 
 client = OpenAI(
-  api_key="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"
+  api_key="openai_api_key"
 )
 
 
